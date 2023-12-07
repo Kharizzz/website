@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Correct Usage Exercise</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="answer.js"></script>
+    <link rel="icon" href="/Templates/templatemo_589_lugx_gaming/assets/images/icon-web.png">
+</head>
+<body id="correct" style="visibility: hidden">
+    <script>
+        let nama = prompt(`Hey there, who are you?`)
+
+let password = prompt(`What's the password`)
+
+function validate(){
+    if (password === "pbi-3c") {
+        alert(`Good Luck With the Exercise, ${nama} 😎`)
+        document.getElementById("correct").style.visibility= "visible"
+    } else {
+        alert(`Sorry ${nama}, Wrong Password`)
+    }
+}
+validate()
+
+    </script>
+    <h1>Fill in The Blank!</h1>
+    <form method="get" id="question1">
+
+        <h2>1.	... of the three girls were among the contestants selected for the final competition.</h2>
+            <input type="radio" name="yonkou" value="A" id="1a" class="option" ><label for="1a">Both</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="1b" class="option"><label for="1b">One</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>2.	The flag was ... on the top of the pole.</h2>
+            <input type="radio" name="yonkou" value="A" id="2a" class="option" ><label for="2a">Raised</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="2b" class="option"><label for="2b">Risen</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>3.	The pastry chef ... the pies on the counter to cool.</h2>
+            <input type="radio" name="yonkou" value="A" id="3a" class="option" ><label for="3a">sat</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="3b" class="option"><label for="3b">set</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>4.	More people are involved in silk production than in any ... activity in the village.</h2>
+            <input type="radio" name="yonkou" value="A" id="4a" class="option" ><label for="4a">other</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="4b" class="option"><label for="4b">another</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>5.	Some artists use traditional design while ... use more modern theme.</h2>
+            <input type="radio" name="yonkou" value="A" id="5a" class="option" ><label for="5a">another</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="5b" class="option"><label for="5b">others</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>6.	By ... motionless, an animal can more easily camouflage itself.</h2>
+            <input type="radio" name="yonkou" value="A" id="6a" class="option" ><label for="6a">lying</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="6b" class="option"><label for="6b">laying</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>7.	The hormone androvine acts ... a painkiller and is six times as strong as morphine.</h2>
+            <input type="radio" name="yonkou" value="A" id="7a" class="option" ><label for="7a">so</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="7b" class="option"><label for="7b">as</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>8.	The seven-gated city wall was once wide ... to admit donkeys and carts.</h2>
+            <input type="radio" name="yonkou" value="A" id="8a" class="option" ><label for="8a">enough</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="8b" class="option"><label for="8b">too</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>9.	Identical twins are ... in many ways and are often difficult to tell apart.</h2>
+            <input type="radio" name="yonkou" value="A" id="9a" class="option" ><label for="9a">alike</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="9b" class="option"><label for="9b">like</label>
+        <br>
+        
+    </form>
+    <form method="get" id="question1">
+
+        <h2>10.	Transplanting organs ... hearts and kidneys has proved easier than transplanting muscles."</h2>
+            <input type="radio" name="yonkou" value="A" id="10a" class="option" ><label for="10a">such</label><br><br>
+            <input type="radio" name="yonkou" value="B" id="10b" class="option"><label for="10b">such as</label>
+        <br>
+        
+    </form>
+    
+    <div id="result" class="result"></div>
+
+    <input type="submit" value="Submit" class="button" onclick="submit()">
+
+    
+
+</body>
+</html>
